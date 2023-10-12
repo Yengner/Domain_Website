@@ -495,7 +495,9 @@
 		background-size: cover;
 		background-attachment: fixed;
 		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden;
 		-webkit-transform: translateZ(0);
+		transform: translateZ(0);
 	}
 
 	.wrapper.style2 {
@@ -630,7 +632,7 @@
 /* Box */
 
 	.box {
-		padding: 3em 2em;
+		padding: 1.5em 2em;
 		background: #FFF;
 		text-align: center;
 		border-radius: 0px 0px 6px 6px;
